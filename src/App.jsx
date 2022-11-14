@@ -1,5 +1,5 @@
 import React from "react";
-import { Artwork, Footer, Header, Hero } from "./components";
+import { Alert, Artwork, Footer, Header, Hero, Loading } from "./components";
 
 const App = () => {
   return (
@@ -10,6 +10,8 @@ const App = () => {
       </div>
       <Artwork />
       <Footer />
+      <Alert />
+      <Loading />
     </div>
   );
 };
