@@ -13,7 +13,7 @@ const Footer = () => {
 
         <div className="flex justify-center items-center mt-7 text-[rgba(255,255,255,.6)] text-sm ">
           <FaEthereum />
-          <span>Acerume © 2020 - 2022 | code with ♥ by AmirCodder</span>
+          <span className="text-[.7rem] md:text-[1rem]">Acerume © 2020 - 2022 | code with ♥ by AmirCodder</span>
         </div>
       </div>
     </div>
